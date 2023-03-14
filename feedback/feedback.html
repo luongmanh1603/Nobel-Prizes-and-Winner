@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/feedback/feedback.css">
+</head>
+<body>
+    <!--Header and Menu-->
+    <div class="header">
+        <h1 class="tieude">NOBEL PRIZE AND WINNERS</h1>
+    </div>
+    <div class="menu">
+      <nav class="inmenu">
+         <ul class="mainmenu">
+              <li><a href="/home/home.html">Home</a></li>
+              <li><a href="/afetnobel/nobel.html">Alfred Nobel</a></li>
+              <li><a href="/yhoc/medicine.html">Medicine Prize</a></li>
+              <li><a href="/hoahoc/chemistry.html">Chemistry Prize</a></li>
+              <li><a href="/vanhoc/literary.html">Literary Prize</a></li>
+              <li><a href="/vatli/physics.html">Physics Prize</a></li>
+              <li><a href="/hoabinh/peace.html">Peace Prize</a></li>
+              <li><a href="/kinhte/economic.html">Prize in Economic Sciences</a></li>
+
+          </ul>
+      </nav>
+  </div>
+  
+
+
+<!--Feedback-->
+
+<div class="fbpnc">
+<form class="info-form" id="info-form">
+    <h3>FEED BACK</h3>
+    <div>
+<!-- name -->
+        <label for="">User Name:</label><br>
+      <input class="container__list--information" type="text" id="name" name="name" placeholder="UserName...">
+      <span class="error" id="name-error"></span>
+    </div>
+    
+    
+    <div>
+    <!-- email -->
+    <label for="">Email:</label><br>
+      <input class="container__list--information" type="email" id="email" name="email" placeholder="Your Email...">        
+      <span class="error" id="email-error"></span>
+    </div>
+
+    <div>
+     <!-- phone number -->
+     <label for="">Phone Number:</label><br>
+      <input class="container__list--information" type="number" id="phone" name="phone" placeholder="Phone Number...">
+      <span class="error" id="phone-error"></span>
+    </div>
+
+    <div>
+        <!-- feedback -->
+        <label for="">Feedback</label>
+        <br>
+        <textarea id="feedback" name="feedback" class="feedback" rows="4" cols="50"></textarea>	
+        <span class="error" id="feedback-error"></span>
+    </div>
+
+    <button type="submit" class="check_information">Submit</button>
+    
+    
+</form>
+</div>
+
+     <!-- phan display -->
+<div id="info-display"></div>
+
+
+
+   
+<footer>
+        
+  <div class="container"> 
+    <div class="ft dstha">
+       <div class="thaxuong-content">
+        <a href="/home/home.html">Home</a>
+        <a href="/afetnobel/nobel.html">Alfred Nobel</a>
+        <a href="/yhoc/medicine.html">Medicine Prize</a>
+        <a href="/hoahoc/chemistry.html">Chemistry Prize</a>
+        <a href="/hoabinh/peace.html">Literary Prize</a>
+        <a href="/vatli/physics.html">Physics Prize</a>
+        <a href="/hoabinh/peace.html">Peace Prize</a>
+        <a href="/kinhte/economic.html">Prize in Economic Sciences</a>
+       </div>
+
+
+
+    </div>
+    <div class="ft contact">
+      <h1 class="lienlac">Contact us</h1>
+      <ul class="menuphu">
+        <li>
+          <a href="https://www.google.com/maps/place/10+P.+Ph%E1%BA%A1m+V%C4%83n+B%E1%BA%A1ch,+D%E1%BB%8Bch+V%E1%BB%8Dng,+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i,+Vietnam/@21.0270144,105.786505,17z/data=!3m1!4b1!4m6!3m5!1s0x3135ab4e6fe67213:0xabd9ecd34483ef09!8m2!3d21.0270144!4d105.7886937!16s%2Fg%2F11kkpczfl1">
+          <span class="lienlac">FPT Tower, số 10 Phạm Văn Bạch, phường Dịch Vọng, quận Cầu Giấy, Hà Nội</span></a>
+        </li>
+        <li><a href="/feedback/feedback.html">Give feedback</a></li>
+        <li><a href="/login/login.html">Sign up for notifications</a></li>
+      </ul>
+
+
+
+
+    </div>
+    <div class="ft follow">
+      <h1>Follow us</h1>
+      <nav class="mxh">
+          <a href="https://www.facebook.com/nobelprize/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com/NobelPrize"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/nobelprize_org/?hl=en"><i class="fab fa-instagram-square"></i></a>
+          <a href="https://www.youtube.com/thenobelprize"><i class="fab fa-youtube-square"></i></a>
+      </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+        
+    <div>
+      <p class="gocphai">Copyright © Nobel Prize Outreach AB 2023</p>
+    </div>
+  </div>
+
+</footer>
+<script src="/home/home.js"></script>
+</body>
+
+
+<!-- js check feedback -->
+<script>
+    // phan lấy các class 
+    const infoForm = document.getElementById('info-form');
+const infoDisplay = document.getElementById('info-display');
+
+infoForm.addEventListener('submit', (event) => {
+event.preventDefault();
+
+const name = document.getElementById('name').value.trim();
+const email = document.getElementById('email').value.trim();
+const phone = document.getElementById('phone').value.trim();
+const feedback = document.getElementById('feedback').value.trim();
+
+
+let isValid = true;
+
+
+// phan check thông tin name
+if (!name) {
+document.getElementById('name-error').textContent = 'Please enter your user name...';
+isValid = false;
+} else {
+document.getElementById('name-error').textContent = '';
+}
+
+    // phan check email
+
+if (!email) {
+document.getElementById('email-error').textContent = 'Please enter your email...';
+isValid = false;
+} else {
+document.getElementById('email-error').textContent = '';
+}
+
+
+
+// phan check phone number
+if (!phone) {
+document.getElementById('phone-error').textContent = 'Please enter the phone number...';
+isValid = false;
+} else {
+document.getElementById('phone-error').textContent = '';
+}
+
+
+
+// phan check feedback
+if (!phone) {
+document.getElementById('feedback-error').textContent = 'Please enter the feedback...';
+isValid = false;
+} else {
+document.getElementById('feedback-error').textContent = '';
+}
+
+
+// phan display hiển thị
+if (isValid) {
+infoDisplay.innerHTML = `
+  <hr>
+  <h2>Display</h2>
+  <ul>
+    <li><strong>User Name: </strong> ${name}</li>
+    <li><strong>Email: </strong> ${email}</li>
+    <li><strong>Phone Number: </strong> ${phone}</li>
+    <li><strong>Feed Back: </strong> ${feedback}</li>
+  </ul>
+`;
+}
+
+});
+</script>
+</html>
