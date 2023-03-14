@@ -1,61 +1,110 @@
 /*header and menu */
 *{
-    box-sizing: border-box;
-  }
-  body {
-    margin: 50px;
-  }
-  .header {
-    text-align: center;
-  }
-  .tieude {
-    color: rgb(230, 140, 23);
-    text-align: center;
-    margin-top: 40px;
-    font-size: 30px;
-    margin-bottom: 40px;
-  }
-  .inmenu {
-    max-width: 1500px;
-    margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  margin: 50px;
+}
+.header {
+  text-align: center;
+}
+.tieude {
+  color: rgb(230, 140, 23);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.inmenu {
+  max-width: 1500px;
+  margin: 0 auto;
+
+}
+.menu {
+  justify-items: center;
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 5px;
+}
+.mainmenu {
+ display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mainmenu li a {
+  color: black;
+  display: inline;
+  padding: 15px 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition: 0.4s;
+  color:black;
+ margin-left: 33px;
+  text-align: center;
+}
+.cansearch{
+  text-align: center;
   
-  }
-  .menu {
-    justify-items: center;
-    background-color: rgb(247, 247, 247);
-    margin-bottom: 5px;
-  }
-  .mainmenu {
-   display: inline-block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .mainmenu li a {
-    color: black;
-    display: inline;
-    padding: 15px 15px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    transition: 0.4s;
-    color:black;
-   margin-left: 33px;
-    text-align: center;
-  }
-  .mainmenu li {
-    float:left;
-    
-  }
+}
+#search-input{
+  border: none;
+  border-bottom: 1px solid rgb(145, 141, 141);
+  background-color: transparent;
+  width: 60%;
+  height: 30px;
+  font-size: 14px;
+}
+#search{
+  border: 0.3px solid whitesmoke;
+  margin-left: 0.3em;
+  padding: 0.7em 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(247, 194, 125);
+
+
+}
+#search:hover{
+  background-color: rgb(245, 149, 24);
+}
+
+#search-input:focus{
+  outline: 0;
+}
+.iconsearch:hover{
+  color: rgb(245, 149, 24);
+  cursor: pointer;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+ 
+.product{
+  display: none;
+}
+.imagesearch{
+  height: 100px;
+  width: auto;
+
+}
+.product-list{
+  display: grid;
+}
+.mainmenu li {
+  float:left;
   
-  
-  
-  li a {
-    font-size: 20px;
-  }
-  .menu li a:hover {
-    background-color: rgb(234, 162, 68);
-  }
+}
+
+
+
+li a {
+  font-size: 20px;
+}
+.menu li a:hover {
+  background-color: rgb(234, 162, 68);
+}
   /*  footer*/
   footer {
     background-color: rgb(247, 247, 247);
