@@ -1,0 +1,365 @@
+/*header and menu */
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 50px;
+}
+.header {
+  text-align: center;
+}
+.tieude {
+  color: rgb(230, 140, 23);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.inmenu {
+  max-width: 1500px;
+  margin: 0 auto;
+
+}
+.menu {
+  justify-items: center;
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 5px;
+}
+.mainmenu {
+ display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mainmenu li a {
+  color: black;
+  display: inline;
+  padding: 15px 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition: 0.4s;
+  color:black;
+ margin-left: 33px;
+  text-align: center;
+}
+.cansearch{
+  text-align: center;
+  
+}
+#search-input{
+  border: none;
+  border-bottom: 1px solid rgb(145, 141, 141);
+  background-color: transparent;
+  width: 60%;
+  height: 30px;
+  font-size: 14px;
+}
+#search{
+  border: 0.3px solid whitesmoke;
+  margin-left: 0.3em;
+  padding: 0.7em 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(247, 194, 125);
+
+
+}
+#search:hover{
+  background-color: rgb(245, 149, 24);
+}
+
+#search-input:focus{
+  outline: 0;
+}
+.iconsearch:hover{
+  color: rgb(245, 149, 24);
+  cursor: pointer;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+ 
+.product{
+  display: none;
+}
+.imagesearch{
+  height: 100px;
+  width: auto;
+
+}
+.product-list{
+  display: grid;
+}
+.mainmenu li {
+  float:left;
+  
+}
+
+
+
+li a {
+  font-size: 20px;
+}
+.menu li a:hover {
+  background-color: rgb(234, 162, 68);
+}
+/*  footer*/
+footer {
+    background-color: rgb(247, 247, 247);
+    border: 0.2px solid rgb(231, 145, 53);
+    margin-top: 20px;
+    border-radius: 8px;
+  
+    }
+    .container:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    .ft {
+    float: left;
+    padding: 10px;
+    }
+    .ft.dstha {
+    width: 30%;
+    }
+    .ft.contact {
+    width: 35%;
+    }
+    .ft.follow {
+    margin-top: 60px;
+    width: 35%;
+    }
+    @media screen and (max-width: 600px) {
+    .ft.contact, .ft.follow, .ft.follow {
+      width: 100%;
+    }
+    }
+    .ft.dstha {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .thaxuong-content {
+    display: contents;
+    position: absolute;
+    background-color: rgb(190, 187, 187);
+    min-width: 160px;
+    z-index: 1;
+    }
+    .thaxuong-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    }
+    .thaxuong-content a:hover {
+    background-color: rgb(234, 162, 68);
+    }
+    .ft.dstha:hover .thaxuong {
+    background-color: rgb(234, 162, 68);
+    }
+    .ft.contact a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+    }
+    .ft.contact li {
+    margin-left: 30px;
+    }
+    .ft.contact {
+    margin-top: 40px;
+    padding: 20px;
+    }
+    
+    .mxh {
+    margin-left: 140px;
+    }
+    .mxh a i {
+    width: 50px;
+    font-size: 30px;
+    color: rgb(29, 10, 238);
+    }
+    .mxh a i:hover {
+    color: rgb(245, 149, 24);
+    }
+    .menuphu {
+    list-style: none;
+    } 
+    .menuphu li {
+    margin: 20px;
+    font-size: 20px;
+    }
+    .menuphu li a:hover {
+    color: rgb(245, 149, 24);
+    }
+    
+    
+    .gocphai {
+      float: right;
+      margin-right: 10px;
+      margin-top: 100px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+/* giua */
+.cacgiaithuong {
+    margin-left: 20%;
+    font-size: 2em;
+    margin-right: 20%;
+    
+    }
+    .cacgiainobel{
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+    .huychuongnobel{
+    width: 270px;
+    float: right;
+    }
+    .chitietcacgiaithuong{
+    font-size: 1.125em;
+    }
+    form.imghuychuong {
+    background-color: rgb(253, 254, 255);
+    border: 0.5px solid rgb(175, 169, 169);
+    float: right;
+    width: 275px;
+    }
+    .nobellifeandwork{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    }
+    .tieudenobellifeandwork{
+    font-size: 2.5em;
+    }
+    .tieude2{
+    font-size: 1.8em;
+    margin-top: 30px;
+    }
+    a.noidunglifeandworknobel {
+    text-decoration: none;
+    color: rgb(48, 48, 207);
+    font-size: 1.3em;
+    
+    }
+    a.noidunglifeandworknobel:hover {
+    color: rgb(245, 149, 24);
+    }
+    .byof {
+    margin-top: 30px;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    }
+    .listgiaithuongcuanobel{
+    margin-top: 60px;
+    text-decoration: none;
+    color: rgb(48, 48, 207);
+    font-size: 1.3em;
+    
+    }
+    .nhacuanobel {
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+    .tieudenhanobel{
+    font-size: 2.2em;
+    }
+    .chuthichnhanobel{
+    font-size: 1.125em;
+    }
+    .duoinhanobel {
+    font-size: 1.125em;
+    text-decoration: none;
+    color: rgb(48, 48, 207)
+    
+    }
+    .shareand2022{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    i:hover {
+    color: rgb(245, 149, 24) ;
+    }
+    .tieudenobel2022{
+      text-decoration: none;
+      color: rgb(245, 149, 24);
+      font-size: 2.5em;
+    }
+    .imgnobel2022{
+      float: right;
+      margin-top: 50px;
+      margin-right: 30px;
+     
+      width: 35%;
+    }
+    .gioithieunobel2022{
+      width: 60%;
+      font-size: 1.3em;
+    }
+    .nobel2022{
+      font-size: 2.5em;
+    }
+    .imghuychuong{
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .imgnobel {
+        width: 100%;
+        max-width: 100%;
+        max-height: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       margin-top: 15px;
+      }
+      .chuthichimgnobel{
+        font-size: 16px;
+        max-width: 1200px;
+        max-width: 100%;
+        margin-left: 8%;
+        margin-right:8%;
+      }
+      .tieudeafnobel{
+        font-size: 4em;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .hr1, .hr2 {
+      margin-right: 20%;
+      margin-left: 20%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      border-color: rgb(231, 145, 53);
+      }
+      .noidungnobel1{
+        margin-top: 50px;
+        margin-right: 20%;
+        margin-left: 20%;
+        font-size: 1.375em;
+      }
+      .caunoinobel {
+        font-size: 2.1em;
+        margin-right: 20%;
+        margin-left: 20%;
+      }
+      .modau{
+        font-size: 1.125em;
+        margin-right: 20%;
+        margin-left: 20%;
+      }
+      .trichdan{
+        margin-right: 20%;
+        margin-left: 20%;
+        font-size: 1.3em;
+        text-align: left;
+        text-transform: none;
+        text-rendering: optimizeLegibility;
+        padding-top: 15px;
+      
+      }
